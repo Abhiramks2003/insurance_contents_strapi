@@ -602,11 +602,12 @@ export interface SharedWhatIsCovered extends Struct.ComponentSchema {
 export interface SharedWhatIsInsurance extends Struct.ComponentSchema {
   collectionName: 'components_shared_what_is_insurances';
   info: {
+    description: '';
     displayName: 'what_is_insurance';
   };
   attributes: {
     banner: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
-    desc: Schema.Attribute.String;
+    desc: Schema.Attribute.Text;
     title: Schema.Attribute.String;
     video: Schema.Attribute.String;
   };
