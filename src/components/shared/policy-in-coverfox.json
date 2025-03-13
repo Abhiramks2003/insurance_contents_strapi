@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_shared_policy_in_coverfoxes",
+  "info": {
+    "displayName": "policy_in_coverfox",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "plans": {
+      "displayName": "insurance_plans",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.insurance-plans"
+    },
+    "disclaimer": {
+      "type": "string"
+    },
+    "discount": {
+      "displayName": "discount",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.discount"
+    },
+    "view_more": {
+      "type": "string"
+    }
+  }
+}

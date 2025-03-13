@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_shared_key_features",
+  "info": {
+    "displayName": "key_features"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "banner": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "features": {
+      "displayName": "features",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.features"
+    },
+    "view_more": {
+      "type": "string"
+    }
+  }
+}

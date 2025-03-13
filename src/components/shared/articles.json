@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_shared_articles",
+  "info": {
+    "displayName": "articles"
+  },
+  "options": {},
+  "attributes": {
+    "banner": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "title": {
+      "type": "string"
+    },
+    "read_more": {
+      "type": "string"
+    }
+  }
+}

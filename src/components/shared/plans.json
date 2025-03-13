@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_shared_plans",
+  "info": {
+    "displayName": "Plans",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "company": {
+      "type": "string"
+    },
+    "recommended": {
+      "type": "boolean"
+    },
+    "claim_settlement_ratio": {
+      "type": "string"
+    },
+    "basic_price": {
+      "type": "biginteger"
+    },
+    "rsa_cover": {
+      "type": "string"
+    },
+    "pa_cover": {
+      "type": "biginteger"
+    },
+    "quote_link": {
+      "type": "string"
+    },
+    "company_logo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "kind": "collectionType",
+  "collectionName": "car_insurances",
+  "info": {
+    "singularName": "car-insurance",
+    "pluralName": "car-insurances",
+    "displayName": "Insurance",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "PeopleLoveUs": {
+      "displayName": "PeopleLoveUs",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.people-love-us"
+    },
+    "TopPolicies": {
+      "displayName": "policy_in_coverfox",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.policy-in-coverfox"
+    },
+    "third_vs_comp": {
+      "displayName": "third_vs_comp",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.third-vs-comp"
+    },
+    "key_features": {
+      "displayName": "key_features",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.key-features"
+    },
+    "what_is": {
+      "displayName": "what_is_insurance",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.what-is-insurance"
+    },
+    "types": {
+      "displayName": "types",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.types"
+    },
+    "importance": {
+      "displayName": "importance",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.importance"
+    },
+    "benefits": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.importance"
+    },
+    "how_to_comp": {
+      "displayName": "how_to_comp",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.how-to-comp"
+    },
+    "top_companies": {
+      "displayName": "top_companies",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.top-companies"
+    },
+    "selecting": {
+      "displayName": "selecting",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.selecting"
+    },
+    "what_is_covered": {
+      "displayName": "what_is_covered",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.what-is-covered"
+    },
+    "payd": {
+      "displayName": "payd",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.payd"
+    },
+    "why_renew": {
+      "displayName": "why_renew",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.why-renew"
+    },
+    "how_to_renew": {
+      "displayName": "how_to_renew",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.how-to-renew"
+    },
+    "file_claim": {
+      "displayName": "file_claim",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.file-claim"
+    },
+    "documents": {
+      "displayName": "documents",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.documents"
+    },
+    "cashless": {
+      "displayName": "cashless",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.cashless"
+    },
+    "renew_benefits": {
+      "displayName": "renew_benefits",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.renew-benefits"
+    },
+    "add_ons": {
+      "displayName": "add_ons",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.add-ons"
+    },
+    "user_reviews": {
+      "displayName": "user_reviews",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.user-reviews"
+    },
+    "how_comp_help": {
+      "displayName": "how_comp_help",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.how-comp-help"
+    },
+    "faq": {
+      "displayName": "faq",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.faq"
+    },
+    "awards": {
+      "displayName": "awards",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.awards"
+    },
+    "articles": {
+      "displayName": "articles",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.articles"
+    },
+    "top_comp": {
+      "displayName": "top_comp",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.top-comp"
+    }
+  }
+}

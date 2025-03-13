@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_shared_companies",
+  "info": {
+    "displayName": "company",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}

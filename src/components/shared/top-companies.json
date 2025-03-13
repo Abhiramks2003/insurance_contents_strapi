@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_shared_top_companies",
+  "info": {
+    "displayName": "top_companies"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "company": {
+      "displayName": "company",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.company"
+    }
+  }
+}

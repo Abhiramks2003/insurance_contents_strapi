@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_shared_people_loves",
+  "info": {
+    "displayName": "PeopleLove"
+  },
+  "options": {},
+  "attributes": {
+    "PeopleLove": {
+      "displayName": "TopPolicies",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.top-policies"
+    }
+  }
+}

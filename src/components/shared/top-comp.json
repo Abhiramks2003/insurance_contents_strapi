@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_shared_top_comps",
+  "info": {
+    "displayName": "top_comp"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "table_comp": {
+      "displayName": "table_comp",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.table-comp"
+    },
+    "disclaimer": {
+      "type": "string"
+    },
+    "discount_block": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.discount-block"
+    }
+  }
+}

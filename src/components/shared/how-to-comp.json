@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_shared_how_to_comps",
+  "info": {
+    "displayName": "how_to_comp",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "string"
+    },
+    "banner": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "comp_steps": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.points"
+    }
+  }
+}

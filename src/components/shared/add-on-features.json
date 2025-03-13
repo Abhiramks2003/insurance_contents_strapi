@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_shared_add_on_features",
+  "info": {
+    "displayName": "add_on_features"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "banner": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "desc": {
+      "type": "richtext"
+    }
+  }
+}

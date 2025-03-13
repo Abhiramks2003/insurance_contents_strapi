@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_shared_what_is_insurances",
+  "info": {
+    "displayName": "what_is_insurance"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "string"
+    },
+    "banner": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "video": {
+      "type": "string"
+    }
+  }
+}

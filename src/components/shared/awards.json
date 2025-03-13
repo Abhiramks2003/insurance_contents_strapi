@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_shared_awards",
+  "info": {
+    "displayName": "awards"
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "name": {
+      "type": "string"
+    },
+    "year": {
+      "type": "integer"
+    }
+  }
+}

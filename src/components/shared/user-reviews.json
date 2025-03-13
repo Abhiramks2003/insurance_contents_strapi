@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_shared_user_reviews",
+  "info": {
+    "displayName": "user_reviews"
+  },
+  "options": {},
+  "attributes": {
+    "rating": {
+      "type": "decimal"
+    },
+    "date": {
+      "type": "date"
+    },
+    "review": {
+      "type": "text"
+    },
+    "profile": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "name": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    }
+  }
+}

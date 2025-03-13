@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_shared_points",
+  "info": {
+    "displayName": "points",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "pnt": {
+      "type": "string"
+    }
+  }
+}

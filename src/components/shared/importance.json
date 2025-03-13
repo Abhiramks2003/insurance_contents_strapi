@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_shared_importances",
+  "info": {
+    "displayName": "importance",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "important_points": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.features"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_shared_tables",
+  "info": {
+    "displayName": "table"
+  },
+  "options": {},
+  "attributes": {
+    "company": {
+      "type": "string"
+    },
+    "network_garages": {
+      "type": "integer"
+    },
+    "cs_ratio": {
+      "type": "decimal"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_shared_cashlesses",
+  "info": {
+    "displayName": "cashless"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "companies": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.company"
+    }
+  }
+}

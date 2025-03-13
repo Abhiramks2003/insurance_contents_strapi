@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_shared_how_to_renews",
+  "info": {
+    "displayName": "how_to_renew",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "renew_steps": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.features"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_shared_types",
+  "info": {
+    "displayName": "types"
+  },
+  "options": {},
+  "attributes": {
+    "insurance_type": {
+      "displayName": "insurance_type",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.insurance-type"
+    },
+    "discount_block": {
+      "displayName": "discount_block",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.discount-block"
+    }
+  }
+}

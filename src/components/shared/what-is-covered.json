@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_shared_what_is_covereds",
+  "info": {
+    "displayName": "what_is_covered",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "instances": {
+      "displayName": "instances",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.instances"
+    },
+    "discount_block": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.discount-block"
+    }
+  }
+}

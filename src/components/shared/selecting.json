@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_shared_selectings",
+  "info": {
+    "displayName": "selecting",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "points_to_consider": {
+      "displayName": "points_to_consider",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.points-to-consider"
+    }
+  }
+}

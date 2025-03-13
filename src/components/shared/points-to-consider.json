@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_shared_points_to_considers",
+  "info": {
+    "displayName": "points_to_consider"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "title": {
+      "type": "string"
+    },
+    "points": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.points"
+    }
+  }
+}

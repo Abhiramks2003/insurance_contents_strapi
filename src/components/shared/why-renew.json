@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_shared_why_renews",
+  "info": {
+    "displayName": "why_renew",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "string"
+    },
+    "discount": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.discount-block"
+    },
+    "reasons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.features"
+    }
+  }
+}

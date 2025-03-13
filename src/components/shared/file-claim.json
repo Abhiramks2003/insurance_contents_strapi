@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_shared_file_claims",
+  "info": {
+    "displayName": "file_claim",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "text"
+    },
+    "points": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.points"
+    },
+    "discount_block": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.discount-block"
+    }
+  }
+}

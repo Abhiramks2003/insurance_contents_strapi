@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_shared_faqs",
+  "info": {
+    "displayName": "faq"
+  },
+  "options": {},
+  "attributes": {
+    "qn": {
+      "type": "text"
+    },
+    "ans": {
+      "type": "text"
+    }
+  }
+}

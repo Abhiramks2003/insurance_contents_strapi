@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_shared_insurance_plans",
+  "info": {
+    "displayName": "insurance_plans",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "company": {
+      "type": "string"
+    },
+    "cover_value": {
+      "type": "string"
+    },
+    "pa_cover_price": {
+      "type": "biginteger"
+    },
+    "net_premium": {
+      "type": "string"
+    },
+    "plan_details": {
+      "type": "string"
+    }
+  }
+}

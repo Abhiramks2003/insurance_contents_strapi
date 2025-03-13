@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_shared_instances",
+  "info": {
+    "displayName": "instances",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "is_covered": {
+      "type": "boolean"
+    },
+    "points": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.points"
+    }
+  }
+}

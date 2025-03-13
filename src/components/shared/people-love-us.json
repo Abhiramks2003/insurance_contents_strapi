@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_shared_people_loveuses",
+  "info": {
+    "displayName": "PeopleLoveUs",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "Plans": {
+      "displayName": "Plans",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.plans"
+    },
+    "disclaimer": {
+      "type": "text"
+    }
+  }
+}

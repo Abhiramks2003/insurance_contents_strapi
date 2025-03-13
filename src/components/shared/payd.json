@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_shared_payds",
+  "info": {
+    "displayName": "payd",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "text"
+    },
+    "contents": {
+      "displayName": "contents",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.contents"
+    }
+  }
+}

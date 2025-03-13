@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_shared_add_ons",
+  "info": {
+    "displayName": "add_ons",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "add_on_features": {
+      "displayName": "add_on_features",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.add-on-features"
+    },
+    "get_covered": {
+      "type": "string"
+    }
+  }
+}

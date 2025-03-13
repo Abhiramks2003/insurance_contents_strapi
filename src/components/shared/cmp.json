@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_shared_cmps",
+  "info": {
+    "displayName": "cmp",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "covered": {
+      "type": "string"
+    },
+    "third": {
+      "type": "boolean"
+    },
+    "comp": {
+      "type": "boolean"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_shared_comparisons",
+  "info": {
+    "displayName": "comparison",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "feature": {
+      "type": "string"
+    },
+    "third": {
+      "type": "boolean"
+    },
+    "comprehensive": {
+      "type": "boolean"
+    }
+  }
+}
